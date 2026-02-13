@@ -35,6 +35,9 @@ Pong Game中にランダム刺激を加え，ゲルの挙動・反応変化を�
 * `plotter_random_tra.py`: 3つのセンサによるデータ取得および実験モードに応じた刺激出力の並行実行．
 * `pong_random_tra.py`: 2つのモードに対応したゲームロジック．ボール連動刺激の生成および，センサ入力値の2次関数フィッティングによるパドル位置推定機能．
 
+### 4.Pong gameの動画作成
+* `video.py`:Pong game実行で得られた電流値，ボールの位置，パドルの位置，ラリー回数のすべてのデータ入ったcsvファイルからpong gameの動画作成するプログラム
+  
 ## ソフトウェア環境と実行方法
 
 ### 1. 必要なライブラリのインストール
@@ -44,7 +47,7 @@ pip install pygame pandas numpy matplotlib seaborn opencv-python adafruit-blinka
 
 
 ### 2. 各ライブラリの用途
-2. 各ライブラリの用途
+
 システム制御（Raspberry Pi）: adafruit-circuitpython-ina219 (計測)， adafruit-blinka (環境動作)， RPi.GPIO (リレー・回路制御)
 
 シミュレーション: pygame (描画・環境構築)
