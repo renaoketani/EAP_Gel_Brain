@@ -39,7 +39,7 @@ Pong Game中にランダム刺激を加え，ゲルの挙動・反応変化を�
 
 ### 1. 必要なライブラリのインストール
 ターミナル（またはコマンドプロンプト）で以下のコマンドを実行してください．
-```bash
+
 pip install pygame pandas numpy matplotlib seaborn opencv-python adafruit-blinka adafruit-circuitpython-ina219 RPi.GPIO
 
 
