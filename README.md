@@ -56,8 +56,8 @@ pip install pygame pandas numpy matplotlib seaborn opencv-python adafruit-blinka
 ### 3. 注意事項（Raspberry Piを使用する場合）
 I2C通信を利用するため、あらかじめOS側の設定でI2Cインターフェースを有効化しておく必要があります。
 
-# I2Cの有効化設定（インターフェース設定からI2CをEnableにしてください）
+#### I2Cの有効化設定（インターフェース設定からI2CをEnableにしてください）
 sudo raspi-config
 
-# 接続確認（INA219のアドレス 0x40, 0x41, 0x44 などが表示されれば正常です）
+#### 接続確認（INA219のアドレス 0x40, 0x41, 0x44 などが表示されれば正常です）
 i2cdetect -y 1
